@@ -4,6 +4,10 @@ body{
     color: #fff;
 }
 
+h2{
+    text-align: center;
+}
+
 .col{
     float: left;
     width: 33.33%;
@@ -23,6 +27,10 @@ body{
 
 .price-box:hover, .price-box.best{
     box-shadow: 0 10px 15px 0 #000;
+}
+
+.price-box .header.header-green{
+    background-color: #4CAf50;
 }
 
 .price-box .header{
@@ -50,4 +58,10 @@ body{
     text-align: center;
     text-decoration: none;
     font-size: 18px;
+}
+
+@media(max-width: 700px){
+    .col{
+        width: 100%;
+    }
 }
